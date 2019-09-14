@@ -2,11 +2,15 @@
 
 Clojure(script) implementation of [invoicer](https://github.com/thalen/invoicer)
 
+## Requirements
+leiningen, NPM
+
 ## Development Mode
 
 ### Run application:
 
 ```
+npm install
 lein clean
 lein dev
 ```
