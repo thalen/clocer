@@ -2,6 +2,7 @@
   (:require
    [re-frame.core :as re-frame]
    [clocer.subs :as subs]
+   ["@material-ui/core/Button" :default Button]
    ))
 
 (defn simple-component [param]
@@ -16,4 +17,5 @@
     [:div
      [:h2 "Hello from " @name]
      [simple-component "test"]
+     [:> Button {:variant "contained" :color "primary"} "Hello world"]
      ]))

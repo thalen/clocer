@@ -3,6 +3,7 @@
     "shadow-cljs": "2.8.52"
   },
   "dependencies": {
+    "@material-ui/core": "3.8.1",
     "create-react-class": "^15.6.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
